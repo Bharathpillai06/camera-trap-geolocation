@@ -12,7 +12,7 @@ real-world GPS coordinate.
 
 Each per-detection row of the output CSV includes the estimated animal
 latitude and longitude alongside species labels, distances, and
-bounding boxes — ready to drop into QGIS, Folium, or any GIS workflow.
+bounding boxes.
 
 ## How the geolocation works
 
