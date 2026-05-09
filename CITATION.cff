@@ -1,4 +1,4 @@
-abstract: "A Python toolkit for estimating animal GPS coordinates from camera-trap imagery using known camera position, bearing, and pinhole geometric projection. Supports YOLO and YOLO+SAHI detection backends, and BioCLIP 2 classification via either pybioclip (full Tree-of-Life taxonomy) or open_clip (zero-shot label list). Intended for use with the SmartWilds dataset and similar fixed-camera wildlife monitoring deployments."
+abstract: "A Python tool for estimating animal GPS coordinates from camera-trap imagery using known camera position, bearing, and pinhole geometric projection. Uses YOLO+SAHI sliced inference for detection and BioCLIP 2 (via open_clip) for zero-shot species classification. Intended for use with the SmartWilds dataset and similar fixed-camera wildlife monitoring deployments."
 authors:
 - family-names: "Pillai"
   given-names: "Bharath"
@@ -9,7 +9,7 @@ date-released: "2026-05-08"
 identifiers:
   - description: "The GitHub release URL of tag v0.1.0."
     type: url
-    value: "https://github.com/Imageomics/camera-trap-geolocation/releases/tag/v0.1.0"
+    value: "https://github.com/Bharathpillai06/camera-trap-geolocation/releases/tag/v0.1.0"
 keywords:
   - imageomics
   - camera-trap
@@ -20,7 +20,7 @@ keywords:
   - sahi
 license: MIT
 message: "If you find this software helpful in your research, please cite both the software and the SmartWilds dataset."
-repository-code: "https://github.com/Imageomics/camera-trap-geolocation"
+repository-code: "https://github.com/Bharathpillai06/camera-trap-geolocation"
 title: "camera-trap-geolocation: GPS forward projection for camera-trap detections"
 version: 0.1.0
 type: software
