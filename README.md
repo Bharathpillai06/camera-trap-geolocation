@@ -5,8 +5,7 @@ camera-trap imagery, using only the camera's known position, the
 camera's known compass bearing, and a pinhole geometric projection
 from the bounding box.
 
-The pipeline pairs **YOLO + SAHI** (sliced inference, for recall on
-small or distant animals) with **BioCLIP 2** zero-shot classification
+The pipeline uses **YOLO** with **BioCLIP 2** zero-shot classification
 via `open_clip`, then projects each detection's bounding box to a
 real-world GPS coordinate.
 
@@ -99,7 +98,6 @@ pipeline.
 The pipeline depends on:
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) for object detection
-- [SAHI](https://github.com/obss/sahi) for sliced inference on small targets
 - [BioCLIP 2](https://huggingface.co/imageomics/bioclip-2) for biological image classification
 - [open_clip](https://github.com/mlfoundations/open_clip) for the BioCLIP 2 inference backend
 
