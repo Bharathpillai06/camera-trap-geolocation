@@ -1,0 +1,15 @@
+# Core ML
+torch>=2.0.0
+ultralytics>=8.0.0
+sahi>=0.11.0
+
+# BioCLIP 2 backends - install at least one
+pybioclip>=0.1.0          # provides TreeOfLifeClassifier (recommended)
+open_clip_torch>=2.24.0   # alternative backend with custom label sets
+
+# Imaging and CSV
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Optional: for tests
+# pytest>=7.0

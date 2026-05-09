@@ -1,0 +1,32 @@
+{
+    "creators": [
+        {
+            "name": "Pillai, Bharath",
+            "orcid": "0009-0005-8479-0373",
+            "affiliation": "Imageomics Institute, The Ohio State University"
+        }
+    ],
+    "description": "A Python toolkit for estimating animal GPS coordinates from camera-trap imagery using known camera position, bearing, and pinhole geometric projection. Supports YOLO and YOLO+SAHI detection backends, and BioCLIP 2 classification via either pybioclip (full Tree-of-Life taxonomy) or open_clip (zero-shot label list).",
+    "keywords": [
+        "imageomics",
+        "camera-trap",
+        "wildlife-monitoring",
+        "geolocation",
+        "bioclip",
+        "yolo",
+        "sahi"
+    ],
+    "title": "camera-trap-geolocation: GPS forward projection for camera-trap detections",
+    "version": "0.1.0",
+    "license": "MIT",
+    "publication_date": "2026-05-08",
+    "grants": [
+        {
+            "id": "021nxhr62::2118240"
+        }
+    ],
+    "references": [
+        "Gu, J., Stevens, S., Campolongo, E. G., Thompson, M. J., Zhang, N., Wu, J., Kopanev, A., Mai, Z., White, A. E., Balhoff, J., Dahdul, W., Rubenstein, D., Lapp, H., Berger-Wolf, T., Chao, W.-L., & Su, Y. (2025). BioCLIP 2: Emergent properties from scaling hierarchical contrastive learning. arXiv:2505.23883.",
+        "Kline, J., Potlapally, A., Pillai, B., Wani, T., Katole, R., Patil, V., Covey, P., Subramoni, H., Berger-Wolf, T., & Stewart, C. (2025). SmartWilds: Multimodal wildlife monitoring dataset. arXiv:2509.18894."
+    ]
+}
